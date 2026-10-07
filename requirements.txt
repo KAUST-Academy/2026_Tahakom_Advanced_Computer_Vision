@@ -1,0 +1,59 @@
+# Lab environment for Advanced Computer Vision
+# (Phase 2A of the Tahakom AI Early Careers Program).
+#
+# Pinned to compatible releases so a wheelhouse built weeks before the course
+# installs the same thing in the classroom. See OFFLINE.md for the
+# `pip download` / `--no-index` offline install.
+#
+# Unpinned lines come from the labs' own imports and install cells and have not
+# been resolved together yet: pin them when you build and test the wheelhouse.
+# The install cells disagree on transformers (Day 7's Foundation Models lab pins
+# 4.47.1, Day 3's optional Segment Anything 3 lab needs 4.57 or newer), so that
+# one needs a decision.
+
+# Every day.
+numpy~=2.1
+pandas~=2.2
+scipy~=1.14
+scikit-learn~=1.5
+matplotlib~=3.9
+seaborn~=0.13
+pillow
+tqdm
+jupyterlab~=4.2
+ipywidgets~=8.1
+
+# Every day. Most labs expect a GPU (the newer ones were timed on a Colab T4);
+# on a CPU wheel they run, but slowly.
+torch~=2.5
+torchvision
+
+# Datasets: most labs download theirs at run time from Kaggle or Hugging Face.
+kagglehub
+datasets
+huggingface_hub
+
+# Hugging Face models: ViT fine-tuning (Day 1), the foundation models lab
+# (Day 7: CLIP, DINOv2, Depth Anything, Florence-2), the vision LLM (Day 8).
+transformers
+accelerate
+einops
+requests
+
+# Detection and segmentation: Days 3 and 10, and YOLO-World on Day 7.
+ultralytics
+segmentation-models-pytorch
+torchmetrics
+opencv-python
+
+# Generative models: model summaries (Days 5 and 6) and diffusers (Day 6).
+torchsummary
+torchinfo
+diffusers
+
+# Optional labs only.
+roboflow                # Day 10: fire and smoke segmentation
+ftfy                    # Day 6: Stable Diffusion with diffusers
+gymnasium               # Day 7: world models
+imageio[ffmpeg]         # Day 7: world models
+stable-worldmodel[all]  # Day 7: world models (brings MuJoCo and Meta-World)
