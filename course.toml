@@ -325,14 +325,6 @@ icon  = "ri-bubble-chart-line"
   status = "ready"
 
   [[days.resources]]
-  name   = "Lab 3: PixelCNN"
-  detail = "An autoregressive model that generates logos pixel by pixel with masked convolutions"
-  kind   = "lab"
-  file   = "Labs/Day_4/03_Pytorch_PixelCNN_Logos.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_4/03_Pytorch_PixelCNN_Logos.ipynb"
-  status = "ready"
-
-  [[days.resources]]
   name   = "Optional: Autoregressive Models"
   detail = "FVSBN, NADE and RNADE, maximum likelihood, RNNs as autoregressive models, PixelRNN, PixelCNN and WaveNet"
   kind   = "slides"
@@ -598,19 +590,11 @@ icon  = "ri-search-eye-line"
   status = "ready"
 
   [[days.resources]]
-  name   = "Lab 1: Image Search with EfficientNetV2"
-  detail = "Embed Caltech-101 images with a pretrained EfficientNetV2-S, compress the features with PCA, and retrieve neighbours by cosine similarity"
-  kind   = "lab"
-  file   = "Labs/Day_9/01_Image_Search_EfficientNetV2.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_9/01_Image_Search_EfficientNetV2.ipynb"
-  status = "ready"
-
-  [[days.resources]]
-  name   = "Lab 2: Out-of-Distribution Detection"
+  name   = "Lab 1: Out-of-Distribution Detection"
   detail = "Train a CIFAR-10 classifier, then compare softmax confidence and energy scores at flagging CIFAR-100, SVHN and texture images, measured with AUROC and FPR95"
   kind   = "lab"
-  file   = "Labs/Day_9/02_Out_of_Distribution_Detection_Softmax_vs_Energy.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_9/02_Out_of_Distribution_Detection_Softmax_vs_Energy.ipynb"
+  file   = "Labs/Day_9/01_Out_of_Distribution_Detection_Softmax_vs_Energy.ipynb"
+  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_9/01_Out_of_Distribution_Detection_Softmax_vs_Energy.ipynb"
   status = "ready"
 
 [[days]]
@@ -645,35 +629,19 @@ icon  = "ri-tools-line"
   status = "ready"
 
   [[days.resources]]
-  name   = "Lab 2: Brain MRI Tumour Segmentation"
-  detail = "Exercise: write the Dataset class and train a U-Net with a pretrained encoder to segment tumours in LGG brain MRI scans"
-  kind   = "lab"
-  file   = "Labs/Day_10/02_Brain_MRI_Tumor_Segmentation_Exercise.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_10/02_Brain_MRI_Tumor_Segmentation_Exercise.ipynb"
-  status = "ready"
-
-  [[days.resources]]
-  name   = "Lab 3: Safety Helmet Detection"
-  detail = "Train, evaluate and run a YOLO detector that checks workers in petrochemical sites for safety helmets"
-  kind   = "lab"
-  file   = "Labs/Day_10/03_Object_Detection_for_PPE.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_10/03_Object_Detection_for_PPE.ipynb"
-  status = "ready"
-
-  [[days.resources]]
-  name   = "Lab 4: Stereo Matching with a Learned Cost Volume"
+  name   = "Lab 2: Stereo Matching with a Learned Cost Volume"
   detail = "On KITTI 2015, compare OpenCV's semi-global matching with a small GC-Net trained from scratch, then turn disparity into depth and a 3D point cloud"
   kind   = "lab"
-  file   = "Labs/Day_10/04_Stereo_Matching_with_a_Learned_Cost_Volume.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_10/04_Stereo_Matching_with_a_Learned_Cost_Volume.ipynb"
+  file   = "Labs/Day_10/02_Stereo_Matching_with_a_Learned_Cost_Volume.ipynb"
+  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_10/02_Stereo_Matching_with_a_Learned_Cost_Volume.ipynb"
   status = "ready"
 
   [[days.resources]]
-  name   = "Optional: Brain MRI Tumour Segmentation (Solution)"
-  detail = "Worked solution to the brain MRI exercise"
+  name   = "Optional: Brain MRI Tumour Segmentation"
+  detail = "Write the Dataset class and train a U-Net with a pretrained encoder to segment tumours in LGG brain MRI scans, with every step worked through"
   kind   = "lab"
-  file   = "Labs/Day_10/Optional/01_Brain_MRI_Tumor_Segmentation_Exercise_Solution.ipynb"
-  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_10/Optional/01_Brain_MRI_Tumor_Segmentation_Exercise_Solution.ipynb"
+  file   = "Labs/Day_10/Optional/01_Brain_MRI_Tumor_Segmentation.ipynb"
+  colab  = "https://colab.research.google.com/github/KAUST-Academy/2026_Tahakom_Advanced_Computer_Vision/blob/main/Labs/Day_10/Optional/01_Brain_MRI_Tumor_Segmentation.ipynb"
   status = "ready"
 
   [[days.resources]]
